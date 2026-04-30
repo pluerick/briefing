@@ -1,0 +1,59 @@
+{
+  "calendar": {
+    "today": [
+      {
+        "summary": "Team standup",
+        "start": "2026-04-30T09:00:00",
+        "end": "2026-04-30T09:30:00",
+        "organizer": "manager@company.com",
+        "myStatus": "accepted"
+      }
+    ],
+    "upcoming": [
+      {
+        "summary": "Product kickoff",
+        "start": "2026-05-01T13:00:00",
+        "end": "2026-05-01T14:00:00",
+        "organizer": "pm@company.com",
+        "myStatus": "needsAction"
+      }
+    ]
+  },
+  "email": [
+    {
+      "type": "delivery",
+      "subject": "Your package is out for delivery",
+      "from": "UPS My Choice <mcinfo@ups.com>",
+      "detail": "Expected by 5:00 PM today"
+    },
+    {
+      "type": "action",
+      "subject": "Quick question on tomorrow's agenda",
+      "from": "Alex Rivera <alex@company.com>",
+      "detail": "Needs your reply before 4:00 PM"
+    },
+    {
+      "type": "rx",
+      "subject": "Prescription refill is ready",
+      "from": "Community Pharmacy <alerts@pharmacy.example>",
+      "detail": "Pickup available after 2:00 PM"
+    }
+  ],
+  "news": [
+    {
+      "category": "World",
+      "headline": "Leaders gather for regional security summit",
+      "brief": "Talks focus on trade routes, maritime safety, and coordinated humanitarian response."
+    },
+    {
+      "category": "Economy",
+      "headline": "Inflation data shows slower monthly increase",
+      "brief": "Cooling price growth supports expectations for a cautious policy stance."
+    },
+    {
+      "category": "U.S.",
+      "headline": "States expand grid upgrades ahead of summer demand",
+      "brief": "Utilities prioritize transmission reliability and faster outage recovery plans."
+    }
+  ]
+}
